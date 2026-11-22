@@ -4,5 +4,5 @@ terraform {
 
 resource "local_file" "project11" {
   filename = "${path.module}/project11.txt"
-  content  = "Project 11: Infrastructure Changes with Branching Policy"
+  content  = "Project 11: Infrastructure updated through feature branch"
 }
